@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: gnyh
+  description: Backstage
+  tags:
+    - gnyh
+    - idp
+  links:
+    - url: https://gnyh.diegoluisi.eti.br
+      title: System
+      icon: dashboard
+  annotations:
+    github.com/project-slug: devxp-tech/gnyh
+    backstage.io/kubernetes-namespace: gnyh
+spec:
+  type: system
+  owner: group:devxp-tech
+  domain: idp
